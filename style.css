@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 100vh;
+  margin: 0;
+  /* overflow: hidden; */
+  font-family: 'Courier New', monospace; /* Use a monospace font for even spacing */
+
+}
+
+#asciiContainer {
+  font-family: 'Courier New', monospace; /* Use a monospace font for even spacing */
+  white-space: pre; /* This ensures that whitespace is preserved and lines do not wrap */
+  width: 800px !important; /* Fixed width */
+  height: 800px !important; /* Fixed height */
+  overflow: auto; /* Add scrollbars if content is too large */
+}
+
+  
+  #asciiContainer span {
+    display: inline-block;
+    width: 1px; /* Set a fixed width for each character */
+    height: 1px
+  }
+
+  
+#explain{
+
+  padding: 5px;
+  max-width: 450px;
+  position: absolute;
+  display:grid;
+  background-color: burlywood;
+  grid-template-columns: 1fr;
+  bottom: 55px;
+  right: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border: solid 1px #000;
+  /* border-radius: 15%; */
+}
+
+#matrix {
+  font-size: 5px; 
+  word-spacing: 0.5px;  
+  line-height: 1em;  
+}
